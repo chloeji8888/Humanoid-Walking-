@@ -1,0 +1,7 @@
+{"time":"2025-01-18T15:33:09.69543-08:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/Users/uli/Developer/projects/kscale-hackathon/wandb/run-20250118_153309-5zckwabh/logs/debug-core.log"}
+{"time":"2025-01-18T15:33:09.80662-08:00","level":"INFO","msg":"created new stream","id":"5zckwabh"}
+{"time":"2025-01-18T15:33:09.806662-08:00","level":"INFO","msg":"stream: started","id":"5zckwabh"}
+{"time":"2025-01-18T15:33:09.806676-08:00","level":"INFO","msg":"writer: Do: started","stream_id":"5zckwabh"}
+{"time":"2025-01-18T15:33:09.806686-08:00","level":"INFO","msg":"handler: started","stream_id":"5zckwabh"}
+{"time":"2025-01-18T15:33:09.806755-08:00","level":"INFO","msg":"sender: started","stream_id":"5zckwabh"}
+{"time":"2025-01-18T15:33:10.303065-08:00","level":"INFO","msg":"Starting system monitor"}

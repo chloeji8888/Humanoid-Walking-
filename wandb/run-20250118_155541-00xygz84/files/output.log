@@ -1,0 +1,227 @@
+Actor MLP: Sequential(
+  (0): Linear(in_features=39, out_features=512, bias=True)
+  (1): ELU(alpha=1.0)
+  (2): Linear(in_features=512, out_features=256, bias=True)
+  (3): ELU(alpha=1.0)
+  (4): Linear(in_features=256, out_features=128, bias=True)
+  (5): ELU(alpha=1.0)
+  (6): Linear(in_features=128, out_features=10, bias=True)
+)
+Critic MLP: Sequential(
+  (0): Linear(in_features=39, out_features=512, bias=True)
+  (1): ELU(alpha=1.0)
+  (2): Linear(in_features=512, out_features=256, bias=True)
+  (3): ELU(alpha=1.0)
+  (4): Linear(in_features=256, out_features=128, bias=True)
+  (5): ELU(alpha=1.0)
+  (6): Linear(in_features=128, out_features=1, bias=True)
+)
+################################################################################
+                       [1m Learning iteration 0/10 [0m
+
+                       Computation: 38719 steps/s (collection: 7.852s, learning 3.196s)
+               Value function loss: 0.0030
+                    Surrogate loss: 0.0021
+             Mean action noise std: 1.00
+                       Mean reward: -0.05
+               Mean episode length: 22.34
+ Mean episode rew_tracking_lin_vel: 0.0097
+ Mean episode rew_tracking_ang_vel: 0.0012
+        Mean episode rew_lin_vel_z: -0.0001
+      Mean episode rew_base_height: -0.0099
+      Mean episode rew_action_rate: -0.0016
+Mean episode rew_similar_to_default: -0.0007
+--------------------------------------------------------------------------------
+                   Total timesteps: 427776
+                    Iteration time: 11.05s
+                        Total time: 11.05s
+                               ETA: 110.5s
+
+################################################################################
+                       [1m Learning iteration 1/10 [0m
+
+                       Computation: 49998 steps/s (collection: 6.685s, learning 1.871s)
+               Value function loss: 0.0015
+                    Surrogate loss: -0.0037
+             Mean action noise std: 1.00
+                       Mean reward: -0.04
+               Mean episode length: 23.52
+ Mean episode rew_tracking_lin_vel: 0.0141
+ Mean episode rew_tracking_ang_vel: 0.0016
+        Mean episode rew_lin_vel_z: -0.0001
+      Mean episode rew_base_height: -0.0139
+      Mean episode rew_action_rate: -0.0023
+Mean episode rew_similar_to_default: -0.0011
+--------------------------------------------------------------------------------
+                   Total timesteps: 855552
+                    Iteration time: 8.56s
+                        Total time: 19.60s
+                               ETA: 88.2s
+
+################################################################################
+                       [1m Learning iteration 2/10 [0m
+
+                       Computation: 51193 steps/s (collection: 6.487s, learning 1.869s)
+               Value function loss: 0.0012
+                    Surrogate loss: -0.0014
+             Mean action noise std: 0.99
+                       Mean reward: -0.01
+               Mean episode length: 27.64
+ Mean episode rew_tracking_lin_vel: 0.0164
+ Mean episode rew_tracking_ang_vel: 0.0017
+        Mean episode rew_lin_vel_z: -0.0001
+      Mean episode rew_base_height: -0.0151
+      Mean episode rew_action_rate: -0.0025
+Mean episode rew_similar_to_default: -0.0013
+--------------------------------------------------------------------------------
+                   Total timesteps: 1283328
+                    Iteration time: 8.36s
+                        Total time: 27.96s
+                               ETA: 74.6s
+
+################################################################################
+                       [1m Learning iteration 3/10 [0m
+
+                       Computation: 51991 steps/s (collection: 6.374s, learning 1.853s)
+               Value function loss: 0.0012
+                    Surrogate loss: -0.0005
+             Mean action noise std: 0.99
+                       Mean reward: 0.00
+               Mean episode length: 26.25
+ Mean episode rew_tracking_lin_vel: 0.0185
+ Mean episode rew_tracking_ang_vel: 0.0017
+        Mean episode rew_lin_vel_z: -0.0001
+      Mean episode rew_base_height: -0.0159
+      Mean episode rew_action_rate: -0.0026
+Mean episode rew_similar_to_default: -0.0014
+--------------------------------------------------------------------------------
+                   Total timesteps: 1711104
+                    Iteration time: 8.23s
+                        Total time: 36.19s
+                               ETA: 63.3s
+
+################################################################################
+                       [1m Learning iteration 4/10 [0m
+
+                       Computation: 64795 steps/s (collection: 4.737s, learning 1.865s)
+               Value function loss: 0.0011
+                    Surrogate loss: -0.0022
+             Mean action noise std: 0.99
+                       Mean reward: 0.03
+               Mean episode length: 27.25
+ Mean episode rew_tracking_lin_vel: 0.0196
+ Mean episode rew_tracking_ang_vel: 0.0018
+        Mean episode rew_lin_vel_z: -0.0001
+      Mean episode rew_base_height: -0.0160
+      Mean episode rew_action_rate: -0.0026
+Mean episode rew_similar_to_default: -0.0014
+--------------------------------------------------------------------------------
+                   Total timesteps: 2138880
+                    Iteration time: 6.60s
+                        Total time: 42.79s
+                               ETA: 51.3s
+
+################################################################################
+                       [1m Learning iteration 5/10 [0m
+
+                       Computation: 68909 steps/s (collection: 4.366s, learning 1.842s)
+               Value function loss: 0.0011
+                    Surrogate loss: 0.0029
+             Mean action noise std: 0.99
+                       Mean reward: 0.04
+               Mean episode length: 23.55
+ Mean episode rew_tracking_lin_vel: 0.0194
+ Mean episode rew_tracking_ang_vel: 0.0017
+        Mean episode rew_lin_vel_z: -0.0001
+      Mean episode rew_base_height: -0.0154
+      Mean episode rew_action_rate: -0.0025
+Mean episode rew_similar_to_default: -0.0014
+--------------------------------------------------------------------------------
+                   Total timesteps: 2566656
+                    Iteration time: 6.21s
+                        Total time: 49.00s
+                               ETA: 40.8s
+
+################################################################################
+                       [1m Learning iteration 6/10 [0m
+
+                       Computation: 67463 steps/s (collection: 4.467s, learning 1.874s)
+               Value function loss: 0.0011
+                    Surrogate loss: 0.0037
+             Mean action noise std: 0.99
+                       Mean reward: 0.06
+               Mean episode length: 25.93
+ Mean episode rew_tracking_lin_vel: 0.0192
+ Mean episode rew_tracking_ang_vel: 0.0017
+        Mean episode rew_lin_vel_z: -0.0001
+      Mean episode rew_base_height: -0.0148
+      Mean episode rew_action_rate: -0.0024
+Mean episode rew_similar_to_default: -0.0013
+--------------------------------------------------------------------------------
+                   Total timesteps: 2994432
+                    Iteration time: 6.34s
+                        Total time: 55.34s
+                               ETA: 31.6s
+
+################################################################################
+                       [1m Learning iteration 7/10 [0m
+
+                       Computation: 64997 steps/s (collection: 4.761s, learning 1.821s)
+               Value function loss: 0.0011
+                    Surrogate loss: 0.0008
+             Mean action noise std: 0.99
+                       Mean reward: 0.06
+               Mean episode length: 22.40
+ Mean episode rew_tracking_lin_vel: 0.0184
+ Mean episode rew_tracking_ang_vel: 0.0016
+        Mean episode rew_lin_vel_z: -0.0001
+      Mean episode rew_base_height: -0.0138
+      Mean episode rew_action_rate: -0.0023
+Mean episode rew_similar_to_default: -0.0013
+--------------------------------------------------------------------------------
+                   Total timesteps: 3422208
+                    Iteration time: 6.58s
+                        Total time: 61.92s
+                               ETA: 23.2s
+
+################################################################################
+                       [1m Learning iteration 8/10 [0m
+
+                       Computation: 61550 steps/s (collection: 5.061s, learning 1.889s)
+               Value function loss: 0.0011
+                    Surrogate loss: 0.0086
+             Mean action noise std: 0.99
+                       Mean reward: 0.05
+               Mean episode length: 20.92
+ Mean episode rew_tracking_lin_vel: 0.0178
+ Mean episode rew_tracking_ang_vel: 0.0015
+        Mean episode rew_lin_vel_z: -0.0001
+      Mean episode rew_base_height: -0.0131
+      Mean episode rew_action_rate: -0.0022
+Mean episode rew_similar_to_default: -0.0012
+--------------------------------------------------------------------------------
+                   Total timesteps: 3849984
+                    Iteration time: 6.95s
+                        Total time: 68.87s
+                               ETA: 15.3s
+
+################################################################################
+                       [1m Learning iteration 9/10 [0m
+
+                       Computation: 60249 steps/s (collection: 5.242s, learning 1.858s)
+               Value function loss: 0.0012
+                    Surrogate loss: 0.0012
+             Mean action noise std: 0.99
+                       Mean reward: 0.05
+               Mean episode length: 20.33
+ Mean episode rew_tracking_lin_vel: 0.0172
+ Mean episode rew_tracking_ang_vel: 0.0015
+        Mean episode rew_lin_vel_z: -0.0001
+      Mean episode rew_base_height: -0.0126
+      Mean episode rew_action_rate: -0.0021
+Mean episode rew_similar_to_default: -0.0012
+--------------------------------------------------------------------------------
+                   Total timesteps: 4277760
+                    Iteration time: 7.10s
+                        Total time: 75.97s
+                               ETA: 7.6s

@@ -1,0 +1,15 @@
+{"time":"2025-01-18T16:06:56.804629-08:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/Users/uli/Developer/projects/kscale-hackathon/wandb/run-20250118_160656-mrcj64ye/logs/debug-core.log"}
+{"time":"2025-01-18T16:06:56.91195-08:00","level":"INFO","msg":"created new stream","id":"mrcj64ye"}
+{"time":"2025-01-18T16:06:56.911999-08:00","level":"INFO","msg":"stream: started","id":"mrcj64ye"}
+{"time":"2025-01-18T16:06:56.912013-08:00","level":"INFO","msg":"writer: Do: started","stream_id":"mrcj64ye"}
+{"time":"2025-01-18T16:06:56.912029-08:00","level":"INFO","msg":"handler: started","stream_id":"mrcj64ye"}
+{"time":"2025-01-18T16:06:56.912039-08:00","level":"INFO","msg":"sender: started","stream_id":"mrcj64ye"}
+{"time":"2025-01-18T16:06:57.504776-08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-18T16:07:25.646488-08:00","level":"INFO","msg":"stream: closing","id":"mrcj64ye"}
+{"time":"2025-01-18T16:07:25.646524-08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-18T16:07:25.646872-08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-18T16:07:26.629657-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-18T16:07:26.887833-08:00","level":"INFO","msg":"handler: closed","stream_id":"mrcj64ye"}
+{"time":"2025-01-18T16:07:26.887845-08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mrcj64ye"}
+{"time":"2025-01-18T16:07:26.887857-08:00","level":"INFO","msg":"sender: closed","stream_id":"mrcj64ye"}
+{"time":"2025-01-18T16:07:26.888167-08:00","level":"INFO","msg":"stream: closed","id":"mrcj64ye"}
