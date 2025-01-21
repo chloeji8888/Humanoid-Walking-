@@ -53,3 +53,15 @@ Both environments share similar core functionality:
 ## Usage
 
 1. **Setup Environment**:
+  bash
+  conda create -n genesis python=3.12
+  conda activate genesis
+  pip install -r requirements.txt
+
+2. **Training**:
+  bash
+  python zbot_train.py # For ZBot
+
+3. **Evaluation**:
+  bash
+  python zeroth_eval.py
